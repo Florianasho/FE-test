@@ -33,6 +33,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
 ### Environment
+```sh
 Node version: 20.10.0
 npm version: 10.2.3
+```
