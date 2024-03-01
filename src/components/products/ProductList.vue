@@ -26,7 +26,7 @@ export default {
   components: { ProductItem, },
   watch: {
     products: function(val) {
-      this.productData = val.product;
+      this.productData = val.product.slice(this.productData.length, this.products.pageSize * this.page);
     }
   },
   methods: {
